@@ -16,6 +16,6 @@ jobs:
     - name: configure
       run: mkdir build && cd build
     - name: cmake
-      run: cmake
+      run: cmake ..
     - name: make 
       run: make firmware
